@@ -10,6 +10,9 @@ module.exports = {
         schedule: './assets/js/schedule.js',
         tickets: './assets/js/tickets.js'
     },
+    devServer: {
+        static: "./"
+    },
     output: {
         filename: "[name].bundle.js",
         path: __dirname + "/dist",
